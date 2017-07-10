@@ -12,9 +12,10 @@ This small utility is used for controlling your Dell monitor brightness level. I
 ### Setup
 1. Download this repository.
 2. Upload the Arduino sketch, which is located in the /arduino folder.
-3. Run ```python run.py``` to startup the brightness handler.
-4. Optional: run ```python setup.py``` if you have installed pywin32.
-5. Optional: move the generated .exe in the /dist folder into the Startup Common folder.
+3. Change the COM port in run.py, on line 27.
+4. Run ```python run.py``` to startup the brightness handler.
+5. Optional: run ```python setup.py``` if you have installed pywin32.
+6. Optional: move the generated .exe in the /dist folder into the Startup Common folder.
 
 ### Notes
 This is a small hobby project. Don't expect perfectly written code ;)
